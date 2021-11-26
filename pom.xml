@@ -44,7 +44,7 @@
 			<dependency>
 				<groupId>com.github.yyhyap</groupId>
 				<artifactId>mssc-brewery-bom</artifactId>
-				<version>-b514c81cc4-1</version>
+				<version>Tag</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
 			<dependency>
