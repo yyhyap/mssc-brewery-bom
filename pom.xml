@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.yyh</groupId>
 	<artifactId>mssc-brewery-bom</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<!-- going to create pom packaging -->
 	<packaging>pom</packaging>
@@ -20,6 +20,13 @@
 			<name>Yap Yong Heng</name>
 		</developer>
 	</developers>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,6 +41,11 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>com.github.yyhyap</groupId>
+				<artifactId>mssc-brewery-bom</artifactId>
+				<version>Tag</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
 			<dependency>
 				<groupId>javax.xml.bind</groupId>
